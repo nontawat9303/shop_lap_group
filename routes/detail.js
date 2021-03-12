@@ -9,9 +9,9 @@ const router = express.Router();
 
 router.get('/detail', (req, res, next) => {
   const products = adminData.products;
-  res.render('shop', {
+  res.render('detail', {
     prods: products,
-    pageTitle: 'Shop',
+    pageTitle: 'detail',
     path: '/admin/detail',
     hasProducts: products.length > 0,
     activeShop: true,
