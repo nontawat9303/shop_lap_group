@@ -9,7 +9,7 @@ const router = express.Router();
 const products = [{
   "product_id":"001",
   "product_name":"Tomato",
-  "iamge_path":"https://fbconnect.co.th/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/r/e/redberrytomato_1.jpg",
+  "image_path":"https://fbconnect.co. th/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/r/e/redberrytomato_1.jpg",
   "price":"10",
   "detail":"5555"
 },{
